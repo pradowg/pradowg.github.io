@@ -1,0 +1,60 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    align-items: first baseline;
+    text-align:left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #462fc9;
+    color: white;
+}
+
+.linha-1 {
+    background-color: #18c752;
+}
+
+.linha-2 {
+    background-color: #d40897;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    width: calc(30% - 20px);
+    
+}
+
+
+
